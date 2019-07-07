@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src/test/resources/skeleton/case2.feature"},glue="skeleton",plugin="html:target/htmlReport")
+@CucumberOptions(features= {"src/test/resources/skeleton/case2.feature"},glue="skeleton",plugin="json:target/jsonReport.json")
 public class runnercass {
 
 }
